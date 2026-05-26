@@ -1,0 +1,203 @@
+*{
+margin: 0px;
+font-family: 'Press Start 2p', 'serif';
+}
+
+#metalman{
+background-color: rgb(220, 40, 75);
+}
+
+#quickman{
+	background-color: orange;
+}
+
+#woodman{
+	background-color: brown;
+}
+#metalmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black , #9C2007);
+}
+
+
+#flashmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black , blue);
+}
+#sml{
+	height: 300px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+#quickmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black ,orange);
+}
+
+#woodmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black ,brown);
+}
+
+#crashmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black ,pink );
+}
+
+
+#bubblemanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black , green);
+}
+
+#airmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black , blue);
+}
+
+
+#heatmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-color: black;
+background: linear-gradient(to right, black ,orange );
+}
+
+#crashman{
+	background-color: pink;
+}
+
+
+#airman{
+	background-color: blue;
+}
+
+
+#bubbleman{
+	background-color: green;
+}
+
+#heatman{
+	background-color: orange;
+}
+
+
+#flashman{
+	background-color: blue;
+}
+#metalmanpic{
+	height: 250px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+#megamanlogo{
+height:250px;
+width: 25;
+}
+
+#bossname{
+height: 250px;
+width: 75%;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 40px;
+color:white;
+}
+
+nav{
+display: flex;
+padding: 10px;
+font-family: Oswald;
+height: 90px;
+width: 98.5%;
+background-color: black;
+}
+
+nav a{
+	margin-right: 10px;
+	margin-left: 15px;
+	font-family: 14px;
+	color:white;
+}
+
+#metalman1:hover{
+transition: 1s;
+color:red;
+}
+
+#airman1:hover{
+transition: 1s;
+color:blue;
+}
+
+#quickman1:hover{
+transition: 1s;
+color:yellow;
+}
+
+#heatman1:hover{
+transition: 1s;
+color:orange;
+}
+
+#woodman1:hover{
+transition: 1s;
+color:brown;
+}
+#flashman1:hover{
+transition: 1s;
+color:yellow;
+}
+
+#bubbleman1:hover{
+transition: 1s;
+color:green;
+}
+
+#crashman1:hover{
+transition: 1s;
+color:pink;
+}
+
+#metalmanstage{
+justify-content: center;
+margin-top: 0px;
+padding: 0px;
+width: 100%;
+display: flex;
+}
+	#metalmanstage p{
+	width: 35%;
+	letter-spacing: 1 px;
+	font-size: 20px;
+	border: 4px dashed black;
+	padding: 24px;
+	
+}

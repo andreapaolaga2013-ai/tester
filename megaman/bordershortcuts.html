@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Border Shortcuts </title>
+<meta charset="utf-8">
+<style>
+section{
+height: 300px;
+width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#firstbox{
+height: 150px;
+width: 40%;
+border: solid;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#secondbox{
+height: 150px;
+width: 40%;
+border-top: solid;
+border-left: solid;
+border-bottom: solid;
+border-right: solid;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#thirdbox{
+height: 150px;
+width: 40%;
+border-top: solid;
+border-bottom: solid;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#fourthbox{
+height: 150px;
+width: 40%;
+border-left: solid;
+border-right: solid;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#fifthbox{
+height: 150px;
+width: 40%;
+border: solid black 3px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#sixthbox{
+height: 150px;
+width: 40%;
+border: solid black;
+border-width: 3px 5px 7px 9px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#seventhbox{
+height: 150px;
+width: 40%;
+border: solid black;
+border-width: 3px 5px 7px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#eigthbox{
+height: 150px;
+width: 40%;
+border: solid black;
+border-width: 3px 7px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+</style>
+</head>
+<body>
+<header> Border Shortcuts </header>
+<section id="firstsection">
+<div id="firstbox"> Simply styling border: black; will default to a solid black border with a 3px width/thickness.  </div>
+</section>
+<section id="secondsection">
+<div id="secondbox"> If you wanted to, you could also style for each side of a border. See the style section. </div>
+</section>
+<section id="thirdsection">
+<div id="thirdbox"> You can also pick and choose which side you want to style. See the style section.  </div>
+</section>
+<section id="fourthsection">
+<div id="fourthbox"> Maybe you want just the left and right side instead of top and bottom. </div>
+</section>
+<section id="fifthsection">
+<div id="fifthbox"> You can also just use number positioning. This box was styled with solid black 3px. Using only one number will make all four sides the same. See the style section.</div>
+</section>
+<section id="sixthsection">
+<div id="sixthbox"> Styling with four numbers will individually control the four border. Each number corresponds to a certain spot. The first number goes with the top border, the second with the right border, the third with the bottom, and the fourth with the left. It goes clockwise starting with the top. See the style section. All you have to do in the style tag is declare border-width.  </div>
+</section>
+<section id="seventhsection">
+<div id="seventhbox"> If you use border-width, but only with the three numbers, the first number will control the top, the second number will control BOTH the LEFT and the RIGHT, and the third number will control the bottom. See the style tag.  </div>
+</section>
+<section id="eigthsection">
+<div id="eigthbox"> If you use border-width, but only with two numbers, the first number will control the top and bottom, and the second number will control both the left and right. See the style tag.  </div>
+</section>
+</body>
+</html>
